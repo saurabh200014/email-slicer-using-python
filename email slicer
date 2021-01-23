@@ -1,0 +1,6 @@
+email=input("write your email?")
+
+print("your email is "+email)
+print("your username is "+email[ :email.index("@")])
+print("your domain name is "+email[email.index("@")+1:])
+
